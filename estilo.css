@@ -1,0 +1,87 @@
+*
+{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0px 0px;
+}
+
+.item1 { grid-area: div_cabecera; }
+.item2 { grid-area: div_ac; }
+.item3 { grid-area: div_division; }
+.item4 { grid-area: div_7; }
+.item5 { grid-area: div_8; }
+.item6 { grid-area: div_9; }
+.item7 { grid-area: div_x; }
+.item8 { grid-area: div_4; }
+.item9 { grid-area: div_5; }
+.item10 { grid-area: div_6; }
+.item11 { grid-area: div_menos; }
+.item12 { grid-area: div_1; }
+.item13 { grid-area: div_2; }
+.item14 { grid-area: div_3; }
+.item15 { grid-area: div_mas; }
+.item16 { grid-area: div_0; }
+.item17 { grid-area: div_punto; }
+.item18 { grid-area: div_igual; }
+
+
+.div_principal > div
+{
+  max-width: 280px;
+  text-align: center;
+  padding: 30px 0;
+  font-size: 30px;
+}
+
+.div_principal
+{	
+	width: 400px;
+	
+	height: 700px;
+	display: grid;
+  	grid-template-areas:
+	'div_cabecera div_cabecera div_cabecera div_cabecera'
+	'div_ac div_ac div_ac div_division'
+	'div_7 div_8 div_9 div_x'
+	'div_4 div_5 div_6 div_menos'
+	'div_1 div_2 div_3 div_mas'
+	'div_0 div_0 div_punto div_igual';
+	grid-gap: 10px;  
+	padding: 10px;
+	background-color: #4c4c4c;
+	border-radius: 20px;
+}
+
+#parrafo_cabecera
+{
+  color: white;
+}
+
+.amarillo
+{
+	background-color: #f5923d;
+}
+
+.item1
+{
+	background-color: #4c4c4c;
+	height: 150px;
+}
+
+.blanco
+{
+	background-color: white;
+}
+
+#igual
+{
+	border-bottom-right-radius: 20px;
+}
+
+#cero
+{
+	border-bottom-left-radius: 20px;
+}
